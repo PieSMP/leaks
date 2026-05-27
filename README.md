@@ -1,4 +1,4 @@
 # leaks
-pie SMP leaks
-Latest Photo:
+pie SMP leaks  
+Latest Photo:  
 ![latest photo](snapshots/latest.png)
