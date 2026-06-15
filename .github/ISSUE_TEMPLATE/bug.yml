@@ -5,6 +5,7 @@ description: Report a bug win Pie SMP
 labels: "bug,needs-fixing"
 title: "[Bug]: "
 type: Bug
+projects: ["PieSMP/1"]
 
 body:
   - type: textarea
