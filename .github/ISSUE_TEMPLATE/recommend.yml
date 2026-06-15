@@ -2,7 +2,7 @@
 name: Recommend a Feature
 description: Request for a new feature to add to Pie SMP
 
-labels: "enhancement"
+labels: "Requested Feature"
 title: "[Feature]: "
 type: Feature
 projects: ["PieSMP/1"]
