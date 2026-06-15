@@ -1,0 +1,31 @@
+name: Bug Report
+description: Report a bug win Pie SMP
+
+labels: "bug,needs-fixing"
+title: "[Bug]: "
+type: Bug
+
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us what you expected to happen.
+      placeholder: Explain the bug...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Date
+      description: What date did you find this bug?
+      placeholder: June 22 2026
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Agreements
+      description: "By submitting this issue, you understand that:"
+      options:
+        - label: "I have reported only *one* bug in this issue"
