@@ -5,6 +5,7 @@ description: Request for a new feature to add to Pie SMP
 labels: "enhancement"
 title: "[Feature]: "
 type: Feature
+projects: ["PieSMP/1"]
 
 body:
   - type: textarea
