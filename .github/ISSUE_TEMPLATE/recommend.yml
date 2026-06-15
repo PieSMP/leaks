@@ -1,0 +1,31 @@
+# sorry tuff network for using ur template
+name: Reccomend a Feature
+description: Request for a new feature to add to Pie SMP
+
+labels: "enhancement"
+title: "[Feature]: "
+type: Feature
+
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What are you requesting?
+      description: Describe the feature you are requesting
+      placeholder: Explain...
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: add the link
+      placeholder: Provide the link, not the file!
+    validations:
+      required: false
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Agreements
+      description: "By submitting this issue, you understand that:"
+      options:
+        - label: "I have requested only *one* feature in this issue"
